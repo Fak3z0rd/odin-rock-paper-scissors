@@ -1,0 +1,28 @@
+.container {
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    overflow: hidden;
+}
+
+i {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+#modal {
+    text-align: center;
+}
+
+dialog::backdrop {
+    background: black;
+    opacity: 0.4;
+}
